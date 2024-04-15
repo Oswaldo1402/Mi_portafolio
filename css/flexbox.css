@@ -45,7 +45,9 @@ body{
     width: 100%;
     justify-content:center;
     flex-direction: column;
+    align-items: center;
 }
+/* Heroe*/
 .contenedor_heroe{
     display: flex;
     width: 79%;
@@ -60,12 +62,13 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-.presentacion{
+
+.titulo_presentacion{
     font-weight: 700;
     font-size: 35px;
     line-height: 61.05px;
 }
-.formacion{
+.parrafo_formacion{
     font-weight: 400;
     font-size: 22px;
     line-height: 25.83px;
@@ -92,6 +95,41 @@ body{
     overflow: hidden;
 }
 
+/* Acerca de mi */
+
+.contenedor_acerca_de_mi{
+    display: flex;
+    width: 100%;
+    height:383px;
+    gap: 10px;
+    background: #eaf2fd;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_titulo_parrafo_acera_de_mi{
+    display: flex;
+    width: 79%;
+    height: 255px;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.titulo_sobre_mi{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+}
+.parrafo_sobre_mi{
+    width: 66%;
+    height: 255px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;  
+    text-align: justify;  
+}
+
+
+
 /* Skills hobbies formacion*/
 
 .contenedor_skills_hobbies_formacion{
@@ -103,6 +141,8 @@ body{
     align-items: center;
 
 }
+/* Skills hobbies */
+
 .contenedor_skills_hobbies{
     display: flex;
     width: 79%;
@@ -110,8 +150,7 @@ body{
     gap: 32px;
     flex-direction: column;
     align-items: center;
-    margin-top: 25px;
-  
+    margin-top: 25px; 
 }
 .titulo_skills_hobbies_formacion{
     font-weight: 700;
@@ -225,118 +264,19 @@ body{
     width:100%;
     height: 406px;
     gap: 16px;
+    justify-content: center;
+    align-items: center;
 }
 /* Proyecto1*/
 .contenedor_proyecto1{
     display: flex;
-    width: 66%;
-    height: 406px;
-    background: #d3d3d3;    
-    flex-direction: column;    
-}
-.contenedor_titulo_codigo_secreto{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.titulo_codigo_secreto{
-    font-weight: 700;
-    font-size: 45px;
-    color: black;
-    margin-left: 25%;
-}
-.contenedor_ingresar_texto_mensaje_encriptado{
-    display: flex;
-    width: 100%;
-    height: 200px;
-    justify-content: space-evenly
-}
-.contenedor_ingresar_texto{
-    display: flex;
-    background: #ffffff;
-    width: 44%;
-    height: 200px;
-    border-radius: 10px;
-    flex-direction: column;
-
-}
-.advertencia{
-    font-weight: 500;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.input_ingresar_texto{
-    width: 90%;
-    height: 50px;
-    border: 0.1px #e3e3e3 solid;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-.btn_encriptar{
-    background: #0000ff;
-    color: #ffffff;
-    width: 35%;
-    height: 40px;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-left: 12px;
-
-}
-.btn_desencriptar{
-    background: #0000ff;
-    color: #ffffff;
-    width: 40%;
-    height: 40px;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-left: 5px;
-}
-.contenedor_mensaje_encriptada{
-    background: #ffffff;
-    width: 44%;
-    height: 200px;
-    border-radius: 10px;
-
-}
-
-.contenedor_parrafos_mensaje_encriptado{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-left: 10px;
-
-}
-.parrafo_mensaje_encriptado{
-    font-weight: 800;
-    font-size: 30px;
-    color: black;
-}
-.input_mensaje_encriptado{
-    width: 90%;
-    height: 50px;
-    border: 0.1px #e3e3e3 solid;
-    border-radius: 5px;
-    margin-left: 10px;
-}
-.btn_copiar{
-    margin-left: 10px;
-    background: #0000ff;
-    color: #ffffff;
-    width: 25%;
-    height: 40px;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-bottom: 15x;
+    width: 752px;
+    height: 406px; 
 }
 .contenedor_repositorio{
     display: flex;
-    width:34%;
-    height: 406px;  
+    width:368px;
+    height: 112px;  
     flex-direction: column;  
     justify-content: center;
     gap: 8px;
@@ -369,170 +309,208 @@ body{
     height: 51px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Pie de Pagina */
 
+.contenedor_pie_pagina{
+    display: flex;
+    width: 100%;
+    height: 890px;
+    flex-direction: column;
+}
 .contenedor_rodapie{
     display: flex;
     width: 100%;
     height: 788px;
-    gap: 10px;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     background: #eaf2fd;
 }
-.contenedor_telefono_contacto{
+.contenedor_imagen_telefono_contacto{
     display: flex;
     width: 79%;
     height: 660px;
     gap: 16px;
+    justify-content: center;
+    align-items: center;
 }
 .imagen_telefono{
     width: 464px;
     height: 593px;
 }
-.contenedor_contacto_input_boton{
+.contenedor_contacto{
     display: flex;
     width: 58%;
-    height: 596px;
-    gap: 32px;
+    height: 593px;
     flex-direction: column;
+    justify-content: space-between
 }
-.conteneder_contacto{
+.contenedor_titulo_parrafo_contacto{
+    display: flex;
+    width: 100%;
+    height: 84px;
     gap: 8px;
+    flex-direction: column;
+
 }
 .titulo_contacto{
     font-weight: 700;
     font-size: 32px;
     line-height: 37.57px;
 }
-.parrafo_contacto{
+.parrafo_contactarme{
     font-weight: 500;
     font-size: 16px;
     line-height: 18.78px;
 }
-.contenedor_input{
+.contenedor_input_textarea_contacto{
     display: flex;
-    gap: 32px;
     flex-direction: column;
+    width: 100%;
+    height: 397px;
+    gap: 32px;
 }
-.input_contacto{
+.input_nombre_email_asunto{
+    width: 100%;
     height: 56px;
-    width: 100%;
+    gap: 8px;
+    border-radius: 4px;
 }
-.textearea_mensaje{
-    height:133px;
+.textarea_mensaje{
     width: 100%;
+    height: 133px;
+    border-radius: 4px;
     resize: none;
 }
-.boton_enviar_mensaje{
-    display: flex;
+.enviar_mensaje{
     width: 144px;
     height: 51px;
     gap: 10px;
     background: #2a7ae4;
-    align-items: center;
-    justify-content: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 18.78px;
-    color:#ffffff;
+    color: #ffffff;
+
 }
-.contenedor_desarrollado_ano{
+.contenedor_desarrollo_ano{
     display: flex;
-    flex-direction: column;
     width: 100%;
     height: 102px;
     gap: 10px;
-    background:#f5f5f5;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #ffffff;
 }
-.desarrollador_ano{
+.desarrollo_ano{
     font-weight: 500;
     font-size: 16px;
     line-height: 18.78px;
 }
 
-/* Sobre mi */
-.contenedor_principal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media(max-width:1050px){
+    /* skills hobbies formacion*/
+  
+    /* Experiencia profesional*/
+    .contenedor_experiencia{
+        width: 100%;
+    }
+    .titulo_experiencia_profesional{
+        margin-top: 55px;
+        margin-bottom: 55px;
+    }
+  
+    .contenedor_proyecto1_repositorio{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contenedor_proyecto1{
+        width: 90%;
+        height: 406px;
+        margin-left: 5%;
+    }
+    .icono_codigo_secreto{
+        width: 100%;
+    }
+    .contenedor_repositorio{
+        margin-left: 5%;
+    }
+
 }
 
-.contenedor_acerca_de_mi{
-    display: flex;
-    width: 100%;
-    height:383px;
-    gap: 10px;
-    background: #eaf2fd;
-    justify-content: center;
-    align-items: center;
-}
-.contenedor_titulo_parrafo_acera_de_mi{
-    display: flex;
-    width: 79%;
-    height: 255px;
-    gap: 16px;
-    flex-direction: column;
-}
 
-.titulo_sobre_mi{
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 37.57px;
-}
-.parrafo_sobre_mi{
-    width: 66%;
-    height: 255px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18.78px;
-    text-align: justify;
+@media(max-width:1080px){
+    /* Cabecera*/
+    .link{
+        display: none;
+    }
+    /* Heroe */
+    .contenedor_heroe{
+        align-items: center;
+        width: 76.8%;
+        height: 210px;
+    }
+    .titulo_presentacion{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25.83px;
+        text-align: justify;
+    }
+    .parrafo_formacion{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+    .contenedor_foto_perfil{
+        width: 146px;
+        height: 146px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    /* Acerca de mi*/
+    .contenedor_acerca_de_mi{
+
+    }
+    .parrafo_sobre_mi{
+        width: 100%;
+    }
+
+    /*skills Hobbies */
+
+   .contenedor_skills_hobbies_formacion{
+    height: 1600px;
+    gap: 20px;
+   }
+   .contenedor_skills_hobbies{
+    height: 480px;
+   }
+   .contenedor_lista_programas_pasatiempos{
+    flex-wrap: wrap;
+   }
+
+
+    /* Rodapie */
+
+    .imagen_telefono{
+        display: none;
+    }
+
+
+    .contenedor_contacto{
+        width: 100%;
+    }
+
     
 }
 
+@media(max-width:793px){
+
+    /*skills hobbies formacion */
+    .contenedor_lista_programas_pasatiempos{
+        width: 100%;
+    }
 
 
-
-
-
-
-
+}

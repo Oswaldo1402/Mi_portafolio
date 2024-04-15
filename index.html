@@ -12,6 +12,7 @@
     <title>Mi Portafolio</title>
 </head>
 <body>
+    <!--Cabecera-->
     <header class="contenedor_cabecera" >
         <div class="contenedor_logo_links">
             <section class="contenedor_logo">
@@ -28,15 +29,16 @@
             </section>    
         </div>         
     </header>
+     <!--Pincipal-->
     <main class="contenedor_principal" >
         <!--Heroe-->
         <section class="contenedor_heroe">
             <div class="contenedor_presentacion_formacion_redes">
                 <div class="presentacion">
-                    <h1>Hola, soy Oswaldo Aparicio, diseñador de páginas web</h1>
+                    <h1 class="titulo_presentacion">Hola, soy Oswaldo Aparicio, diseñador de páginas web</h1>
                 </div>
                 <div class="formacion">
-                    <p>Soy formado en Ingeniería Química y actualmente estoy participando del proyecto de Oracle ONE en Alura Latam.</p>
+                    <p class="parrafo_formacion">Soy formado en Ingeniería Química y actualmente estoy participando del proyecto de Oracle ONE en Alura Latam.</p>
                 </div>
                 <div class="contenedor_redes">
                     <div class="contenedor_redes_sociales">
@@ -71,6 +73,7 @@
         </section>
         <!--skills hobbies formacion-->
         <section class="contenedor_skills_hobbies_formacion" >
+              <!--skills-->
             <div class="contenedor_skills_hobbies">
                 <h1 class="titulo_skills_hobbies_formacion">Skills</h1>
                 <div class="contenedor_lista_programas_pasatiempos">
@@ -96,6 +99,7 @@
                     </div>
                 </div>
             </div>
+              <!--hobbies -->
             <div class="contenedor_skills_hobbies">
                 <h1 class="titulo_skills_hobbies_formacion">Hobbies</h1>
                 <div class="contenedor_lista_programas_pasatiempos">
@@ -121,6 +125,7 @@
                     </div>
                 </div>     
             </div>
+              <!--formacion-->
             <div class="contenedor_formacion">
                 <h1 class="titulo_skills_hobbies_formacion">Formación académica</h1>
                 <div class="contenedor_lista_formacion_academica">
@@ -150,30 +155,7 @@
             <div class="contenedor_proyectos" >
                 <div class="contenedor_proyecto1_repositorio">
                     <div class="contenedor_proyecto1">
-                        <div class="contenedor_titulo_codigo_secreto">
-                            <h1 class="titulo_codigo_secreto" >código</h1>
-                            <h1 class="titulo_codigo_secreto">secreto</h1>
-                        </div>
-                        <div class="contenedor_ingresar_texto_mensaje_encriptado">
-                            <div class="contenedor_ingresar_texto">
-                                <p class="advertencia">Solo letras minúsculas,sin acento</p>
-                                <input type="text" class="input_ingresar_texto" placeholder="  ingrese el texto aqui">
-                                <div class="contenedor_botones_encriptar_desencriptar">
-                                    <button class="btn_encriptar">Encriptar!</button>
-                                    <button class="btn_desencriptar">Desencritar!</button>
-                                </div>
-                            </div>
-                            <div class="contenedor_mensaje_encriptada">
-                                <div class="contenedor_parrafos_mensaje_encriptado">
-                                    <p class="parrafo_mensaje_encriptado">Mensaje</p>
-                                    <p class="parrafo_mensaje_encriptado">encriptada:</p>
-                                </div>
-                                
-                                <input type="text" class="input_mensaje_encriptado">
-                                <button class="btn_copiar">copiar</button>
-                            </div>
-
-                        </div>
+                        <img class="icono_codigo_secreto" src="Imagenes/icono_codigo_secreto.png" alt="icono_icono_codigo_secreto">
                     </div>
                     <div class="contenedor_repositorio">
                         <h1 class="titulo_encriptador_de_texto">Encriptador de texto</h1>
@@ -204,32 +186,35 @@
 
 
     </main>
-
-    <footer class="contenedor_rodapie">
-        <section class="contenedor_telefono_contacto">
-            <img class="imagen_telefono" src="Imagenes/telefono.png" alt="Imagen_telefono">
-            <div class="contenedor_contacto_input_boton">  
-                    <div class="conteneder_contacto">
+    <footer class="contenedor_pie_pagina">
+        <section class="contenedor_rodapie">
+            <div class="contenedor_imagen_telefono_contacto" >
+                <img class="imagen_telefono" src="Imagenes/telefono.png" alt="imagen telefono">
+                <div class="contenedor_contacto">
+                    <div class="contenedor_titulo_parrafo_contacto">
                         <h1 class="titulo_contacto">Contacto</h1>
-                        <p  class="parrafo_contacto">¿Quieres contactarme?</p>
-                        <p class="parrafo_contacto">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-                    </div>                    
-                    <div class="contenedor_input">
-                        <input type="text" class="input_contacto" placeholder="Nombre">
-                        <input type="text" class="input_contacto" placeholder="E-mail">
-                        <input type="text" class="input_contacto" placeholder="Asunto">
-                        <textarea class="textearea_mensaje" placeholder="Mensaje"></textarea>
+                        <div class="contenedor_parrafo_contactarme">
+                            <p class="parrafo_contactarme">¿Quieres contactarme?</p>
+                            <p class="parrafo_contactarme">complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                        </div>
                     </div>
-                    <button class="boton_enviar_mensaje" >Enviar mensaje</button>
-                
-            </div>
-        </section>
-        <section class="contenedor_desarrollado_ano">
-            <p class="desarrollador_ano">Desarrollado por Oswaldo Aparicio</p>
-            <p class="desarrollador_ano">2024</p>
-        </section>
-    </footer>
+                    <div class="contenedor_input_textarea_contacto">
+                        <input type="text" class="input_nombre_email_asunto" placeholder="  Nombre">
+                        <input type="email" class="input_nombre_email_asunto" placeholder="  E-mail">
+                        <input type="text" class="input_nombre_email_asunto" placeholder="  Asunto">
+                        <textarea class="textarea_mensaje" placeholder="  Mensaje">
 
+                        </textarea>
+                    </div>
+                    <button class="enviar_mensaje">Enviar mensaje</button>
+                </div>
+        </section>
+        <section class="contenedor_desarrollo_ano">
+            <p class="desarrollo_ano">Desarrollado por Oswaldo Aparicio</p>
+            <p class="desarrollo_ano">2024</p>
+        </section>
+
+    </footer>
 
 
 </body>
