@@ -1,0 +1,538 @@
+body{
+    background:#f5f5f5;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    color: #464646;
+    overflow: auto;
+}
+/* Cabecera*/
+.contenedor_cabecera{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.contenedor_logo_links{
+    display: flex;
+    width: 79%;
+    height: 88px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+.contenedor_logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nombre_logo{
+    font-weight: 700; 
+}
+.contenedor_links{
+    display: flex;
+    gap: 32px;
+}
+.link{
+    font-weight: 500;
+}
+.link_email{
+    font-weight: 700;
+}
+
+/* Principal*/
+
+.contenedor_principal{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    flex-direction: column;
+}
+.contenedor_heroe{
+    display: flex;
+    width: 79%;
+    height: 368px;
+    justify-content: space-between;
+}
+.contenedor_presentacion_formacion_redes{
+    display: flex;
+    width: 66%;
+    height: 368px;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+}
+.presentacion{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 61.05px;
+}
+.formacion{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.83px;
+}
+.contenedor_redes{
+    display: flex;
+    height: 24px;
+    width: 62%;
+    gap: 32px;
+}
+.contenedor_redes_sociales{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+
+}
+.contenedor_foto_perfil{
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* Skills hobbies formacion*/
+
+.contenedor_skills_hobbies_formacion{
+    display: flex;
+    width: 100%;
+    height: 1245px;
+    gap:88px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contenedor_skills_hobbies{
+    display: flex;
+    width: 79%;
+    height: 244px;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+  
+}
+.titulo_skills_hobbies_formacion{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;   
+    text-align: center; 
+}
+.contenedor_lista_programas_pasatiempos{
+    display: flex;
+    width: 79%;
+    height: 174px;
+    gap: 16px;
+    justify-content: center;
+}
+.contenedor_programas_pasatiempos{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    gap: 8px;
+    background: #ffffff;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.icono_programa_pasatiempo{
+    width: 24px;
+    height: 24px;
+}
+.titulo_programa_pasatiempo{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+/*Formacion*/
+.contenedor_formacion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 581px;
+    gap: 32px;
+    align-items: center;
+    background: #eaf2fd;
+
+}
+.titulo_skills_hobbies_formacion{
+    display: flex;
+    margin-top: 25px;
+}
+
+.contenedor_lista_formacion_academica{
+    display: flex;
+    width: 79%;
+    height: 247px;
+    gap: 16px;
+    justify-content: center;
+}
+.contenedor_logo_formacion{
+    display: flex;
+    width: 368px;
+    height: 286px;
+    gap: 10px;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_formacion_uni{
+    width:190px ;
+    height:250px ;
+}
+.logo_formacion_alura{
+    width:190px ;
+    height:130px ;
+}
+.titulo_formacion{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+}
+.parrafo_formacion{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+/* Experiencia profesional*/
+
+.contenedor_experiencia{
+    display: flex;
+    width: 79%;
+    height: 1886px;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo_experiencia_profesional{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    margin-top: 15px;
+}
+.contenedor_proyectos{
+    display: flex;
+    width: 100%;
+    height: 1816px;
+    gap: 64px;
+}
+/*proyecto 1 y su repositorio */
+.contenedor_proyecto1_repositorio{
+    display: flex;
+    width:100%;
+    height: 406px;
+    gap: 16px;
+}
+/* Proyecto1*/
+.contenedor_proyecto1{
+    display: flex;
+    width: 66%;
+    height: 406px;
+    background: #d3d3d3;    
+    flex-direction: column;    
+}
+.contenedor_titulo_codigo_secreto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.titulo_codigo_secreto{
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+    margin-left: 25%;
+}
+.contenedor_ingresar_texto_mensaje_encriptado{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-evenly
+}
+.contenedor_ingresar_texto{
+    display: flex;
+    background: #ffffff;
+    width: 44%;
+    height: 200px;
+    border-radius: 10px;
+    flex-direction: column;
+
+}
+.advertencia{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.input_ingresar_texto{
+    width: 90%;
+    height: 50px;
+    border: 0.1px #e3e3e3 solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.btn_encriptar{
+    background: #0000ff;
+    color: #ffffff;
+    width: 35%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 12px;
+
+}
+.btn_desencriptar{
+    background: #0000ff;
+    color: #ffffff;
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.contenedor_mensaje_encriptada{
+    background: #ffffff;
+    width: 44%;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.contenedor_parrafos_mensaje_encriptado{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.parrafo_mensaje_encriptado{
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+}
+.input_mensaje_encriptado{
+    width: 90%;
+    height: 50px;
+    border: 0.1px #e3e3e3 solid;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.btn_copiar{
+    margin-left: 10px;
+    background: #0000ff;
+    color: #ffffff;
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15x;
+}
+.contenedor_repositorio{
+    display: flex;
+    width:34%;
+    height: 406px;  
+    flex-direction: column;  
+    justify-content: center;
+    gap: 8px;
+}
+.titulo_encriptador_de_texto{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+}
+.parrafo_challenge{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+.contenedor_btn_repositorio{
+    display: flex;    
+    width: 250px;
+    justify-content: space-between;
+}
+.btn_repositório{
+    color: #2a7ae4;
+    border: 1px #2a7ae4 solid;
+    width: 116px;
+    height: 51px;
+}
+.btn_ver_demo{
+    background: #2a7ae4;
+    color: #ffffff;
+    width: 116px;
+    height: 51px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pie de Pagina */
+
+.contenedor_rodapie{
+    display: flex;
+    width: 100%;
+    height: 788px;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #eaf2fd;
+}
+.contenedor_telefono_contacto{
+    display: flex;
+    width: 79%;
+    height: 660px;
+    gap: 16px;
+}
+.imagen_telefono{
+    width: 464px;
+    height: 593px;
+}
+.contenedor_contacto_input_boton{
+    display: flex;
+    width: 58%;
+    height: 596px;
+    gap: 32px;
+    flex-direction: column;
+}
+.conteneder_contacto{
+    gap: 8px;
+}
+.titulo_contacto{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+}
+.parrafo_contacto{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+.contenedor_input{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+.input_contacto{
+    height: 56px;
+    width: 100%;
+}
+.textearea_mensaje{
+    height:133px;
+    width: 100%;
+    resize: none;
+}
+.boton_enviar_mensaje{
+    display: flex;
+    width: 144px;
+    height: 51px;
+    gap: 10px;
+    background: #2a7ae4;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color:#ffffff;
+}
+.contenedor_desarrollado_ano{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 102px;
+    gap: 10px;
+    background:#f5f5f5;
+    justify-content: center;
+    align-items: center;
+}
+.desarrollador_ano{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+/* Sobre mi */
+.contenedor_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_acerca_de_mi{
+    display: flex;
+    width: 100%;
+    height:383px;
+    gap: 10px;
+    background: #eaf2fd;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_titulo_parrafo_acera_de_mi{
+    display: flex;
+    width: 79%;
+    height: 255px;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.titulo_sobre_mi{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+}
+.parrafo_sobre_mi{
+    width: 66%;
+    height: 255px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: justify;
+    
+}
+
+
+
+
+
+
+
+
