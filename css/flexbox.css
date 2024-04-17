@@ -568,5 +568,200 @@ body{
 
 }
 @media(max-width:360px){
+    /* Cabecera */
+    .contenedor_cabecera{
+        height: 56px;
+    }
+    .contenedor_logo_links{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .imagen_logo{
+        width: 24px;
+        height: 24px;
+    }
+    .nombre_logo{
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 18.78px;
+    }
+    .link_email{
+        font-weight: 300;
+        size: 8px;
+        line-height: 16.44px;
+    }
+
+    /* Heroe */
+    .contenedor_heroe{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 294px;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .contenedor_presentacion_formacion_redes{
+        width: 100%;
+        height: 148px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .titulo_presentacion{
+        width: 328px;
+        height: 52px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25.83px;      
+    }
+    .parrafo_formacion{
+        width: 328px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+    .contenedor_redes{
+        width: 318px;
+        height: 16px;
+        gap: 8px;
+    }
+    .contenedor_redes_sociales{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+    .contenedor_foto_perfil{
+        width: 98px;
+        height: 98px;
+        border-radius: 50%;
+        margin-left: 10px;
+    } 
+    /* Acerca de mi */
+    .contenedor_acerca_de_mi{
+        align-items: flex-start;
+        height: 470px;
+        width: 100%;
+    }
+    .contenedor_titulo_parrafo_acera_de_mi{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /*skill hobbies formación*/
+    .contenedor_skills_hobbies_formacion{
+        height: 1610px;
+    }
+
+    /* skills*/
+    .contenedor_skills_hobbies{
+        width: 100%;
+    }
+    .titulo_skills_hobbies_formacion{
+        margin-top: 0px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25.83px;
+        margin-top: 25px;
+    }
+    .contenedor_programas_pasatiempos{
+        width: 156px;
+        height: 118px;
+        gap: 8px;
+    }
+    .icono_programa_pasatiempo{
+        width: 37px;
+        height: 37px;
+    }
+    .titulo_programa_pasatiempo{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+    /* Formación */
+    .contenedor_formacion{
+        height: 550px;
+    }
+    .contenedor_lista_formacion_academica{
+        flex-wrap: wrap;
+    }
+    .contenedor_formacion_academica{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+    .contenedor_logo_formacion{
+        width: 100%;
+    }
+    /* Experiencia profesional */
+    .contenedor_experiencia{
+        height: 360px;
+    }
+    .titulo_experiencia_profesional{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25.83px;
+        margin: 10px 0px;
+    }
+    .contenedor_proyectos{
+        height: 280px;
+    }
+    .contenedor_proyecto1_repositorio{
+        height: 280px;
+        width: 268px;
+        justify-content: flex-start;
+    }
+    .contenedor_proyecto1{
+        height: 150px;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .icono_codigo_secreto{
+        height: 144px;    
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;    
+    }
+    .contenedor_repositorio{
+        margin-left: 10px;
+    }
+    .titulo_encriptador_de_texto{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+    .parrafo_challenge{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+
+
+    /*contacto*/
+
+
+    .titulo_contacto{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
