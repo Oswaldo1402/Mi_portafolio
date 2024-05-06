@@ -1,0 +1,70 @@
+.contenedor_rodapie{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin: 80px 0px;
+}
+.contenedor_imagen_telefono_contacto{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.imagen_telefono{
+    display:none;
+}
+.contenedor_contacto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.contenedor_titulo_parrafo_contacto{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+}
+.titulo_contacto{
+    font-weight: 700;
+    font-size: 25px;
+}
+.parrafo_contactarme{
+    display: flex;
+    margin-bottom: 20px;
+}
+.parrafo_contactarme{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contenedor_input_textarea_contacto{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+}
+.input_nombre_email_asunto{
+    height: 50px;
+}
+.textarea_mensaje{
+    height: 200px;
+    resize: none;
+    margin-bottom: 20px;
+}
+.enviar_mensaje{
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    border: 2px solid #2a7ae4;
+    background: #2a7ae4;
+}
+@media(min-width:1440px){
+    .contenedor_imagen_telefono_contacto{
+        align-items: normal;
+    }
+    .imagen_telefono{
+        display: flex; 
+    }
+
+}
+

@@ -1,0 +1,159 @@
+ <main class="principal">
+        <section class="heroe">
+            <div class="contenedor_heroe">
+                <h1 class="presentacion">
+                    Hola, soy Oswaldo Aparicio, diseñador de páginas web       
+                </h1>
+                <p class="soy_formado">Soy formado en Ingeniería Química y actualmente estoy participando del proyecto de Oracle ONE en Alura Latam.
+                </p>
+                <div class="redes_socailes">
+                    <div class="red_social">
+                        <p>Github</p>
+                        <img src="Imagenes/flecha_link.png" alt="flecha link">
+                    </div>
+                    <div class="red_social">
+                        <p>LinkedIn</p>
+                        <img src="Imagenes/flecha_link.png" alt="flecha lnk">
+                    </div>
+                    <div class="red_social">
+                        <p>TikTok</p>
+                        <img src="Imagenes/flecha_link.png" alt="flecha link">
+                    </div>
+                    <div>
+                        <p class="red_social"> Curriculum</p>
+                        <img src="Imagenes/flecha_link.png" alt="flecha link">
+                    </div>
+                </div>
+            </div>
+            <img class="foto_perfil" src="Imagenes/foto_perfil.jpg" alt="foto de perfil">
+        </section>
+        <section class="Sobre_mi">
+            <h1 class="titulo_sobre_mi">Sobre mi</h1>
+            <p class="parrafo_sobre_mi"> Soy Ingeniero Químico con más de 15 años de experiencia en la industria de plantas químicas, desempeñándome durante 7 años como Jefe de Plantas Químicas. Especializado en la operación y gestión de plantas de producción de hipoclorito de sodio y ácido sulfónico. Actualmente, estoy en proceso de adquirir habilidades en programación, incluyendo JavaScript, HTML, CSS, Python y Android, con el objetivo de fusionar la ingeniería química con la informática para optimizar procesos industriales y desarrollar soluciones innovadoras. Apasionado por la tecnología, disfruto explorando nuevas habilidades de programación y aplicándolas a mi experiencia en ingeniería química. Mis hobbies incluyen ver animes, películas, jugar fútbol, viajar e ir al cine.</p>
+        </section>
+        <section class="skills">
+            <h1 class="titulo_skills" >Skills</h1>
+            <div>                
+                <div class="caja_skills" >
+                    <img src="Imagenes/icono-html5.png" alt="icono html5">
+                    <p>Html5</p>
+                </div>
+                <div  class="caja_skills">
+                    <img src="Imagenes/icono_jc.png" alt="icono JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div  class="caja_skills">
+                    <img src="Imagenes/icono_css.png" alt="icono css">
+                    <p>CSS</p>
+                </div>
+            </div>
+            
+        </section>
+        <section class="hobbies">
+            <h1>Hobbies</h1>
+            <div class="caja_ Hobbies">
+                <div>
+                    <img src="Imagenes/icono_pelota_de_futbol.png" alt="icono de pelota de futbol">
+                    <p>Futbol</p>
+                </div>           
+                <div>
+                    <img src="Imagenes/icono_cine.png" alt="icono de cine">
+                    <p>Cine</p>
+                </div>     
+                <div>
+                    <img src="Imagenes/icono_television.png" alt="icono de television">
+                    <p>Series</p>
+                </div>
+                <div>
+                    <img src="Imagenes/icono_paisajes.png" alt="icono de paisajes">
+                    <p>Viajar</p>
+                </div>
+                <div>
+                    <img src="Imagenes/icono_baile.png" alt="icono baile">
+                    <p>Bailar</p>
+                </div>
+            </div>
+        </section>
+        <section class="formacion">
+            <h1 class="formacion_academica">Formación académica</h1>
+            <div>
+                <div class="lista_formacion">
+                    <div>
+                        <div>
+                            <img class="icono_formacion" src="Imagenes/icono_uni.jpeg" alt="logo UNI">
+                        </div>
+                        <h1 class="titulo_formacion">Ing. Química</h1>
+                        <p class="parrafo_formacion">2005-UNI</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img class="icono_formacion" src="Imagenes/icono_alura.png" alt="logo Alura">
+                        </div>
+                        <h1 class="titulo_formacion">Front End</h1>
+                        <p class="parrafo_formacion">2024-Alura</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="experiencia">
+            <h1>Experiencia Profecional</h1>
+            <div class="programador_jefe">
+                <h1 class="titulo_programador_jefe">Desarrollador Frontend en Formación</h1>
+                <div class="proyectos">
+
+                    <div class="proyecto" >
+                        <img class="codigo_secreto" src="Imagenes/icono_codigo_secreto.png" alt="codigo secreto">
+                        <div class="repositorio">
+                            <h1>Encriptador de texto</h1>
+                            <p>Challenge Alura Codificador</p>
+                            <div class="boton_repositorio">
+                                <button>Repositorio</button>
+                                <button>Ver demo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proyecto_reverso" >
+                        <img class="codigo_secreto" src="Imagenes/icono_codigo_secreto.png" alt="codigo secreto">
+                        <div class="repositorio">
+                            <h1>Encriptador de texto</h1>
+                            <p>Challenge Alura Codificador</p>
+                            <div class="boton_repositorio">
+                                <button>Repositorio</button>
+                                <button>Ver demo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="programador_jefe">
+                <h1 class="titulo_programador_jefe">Jefe de Planta Química</h1>
+                <div class="plantas">
+                    <div class="plantas_quimicas">
+                        <img class="planta_quimica" src="Imagenes/imagen_planta_hipoclorito.jpeg" alt="imagen planta hipoclorito">
+                        <div>
+                            <h1 class="titulo_planta_quimica">Planta Hipoclorito</h1>
+                            <p class="fabrica" >Intradevco</p>
+                            <p class="ano">2015-2023</p>
+                        </div>
+                    </div>
+                    <div class="plantas_quimicas">
+                        <img class="planta_quimica" src="Imagenes/imagen_planta_sultonacion.jpeg" alt="imagen planta sulfonacion">
+                        <div>
+                            <h1 class="titulo_planta_quimica">Planta Sulfonación</h1>
+                            <p class="fabrica" >Intradevco</p>
+                            <p class="ano">2015-2023</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="rodapie">
+        <section class="contacto"></section>
+        <section class="desarrollador"></section>
+    </footer>  

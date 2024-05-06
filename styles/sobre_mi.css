@@ -1,0 +1,41 @@
+
+.Sobre_mi{
+    display: flex;
+    margin: 20px 0px;
+    background: #EAF2FD;
+    justify-content: center;
+}
+.contenedor_sobre_mi{
+    width: 90%;
+}
+.titulo_sobre_mi{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.parrafo_sobre_mi{
+    margin-top: 10px;
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+@media(min-width:768px){
+    .titulo_sobre_mi{
+        margin-top: 50px;
+    }
+    .parrafo_sobre_mi{
+        margin: 20px 0px 50px 0px;
+    }
+}
+@media(min-width:1440px){
+    .contenedor_sobre_mi{
+        width: 80%;
+    }
+    .contenedor_titulo_parrafo_sobre_mi{
+        width: 65%;
+    }
+    .parrafo_sobre_mi{
+        line-height: 27px;
+        
+    }
+}

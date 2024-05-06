@@ -1,0 +1,44 @@
+.plantas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.plantas_quimicas{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    gap: 10px;
+}
+.imagen_planta_quimica{
+    width: 100%;
+    height: 200px;
+}
+.titulo_planta_quimica{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.parrafo_planta_quimica{
+    margin-bottom: 5px;
+}
+
+@media(min-width:768px){
+    .imagen_planta_quimica{
+        height: 500px;
+    }
+}
+@media(min-width:1440px){
+    .plantas_quimicas{
+        flex-direction: row;
+        align-items: center;
+    }
+    .sulfonacion{
+        flex-direction: row-reverse;
+    }
+    .imagen_planta_quimica{
+        width: 60%;
+        height: 500px;
+    }
+
+}

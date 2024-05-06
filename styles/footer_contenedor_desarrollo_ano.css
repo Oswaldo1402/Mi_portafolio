@@ -1,0 +1,14 @@
+.contenedor_desarrollo_ano{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    align-items: center;
+    gap: 5px;
+}
+.titulo_desarrollo_ano{
+    margin-top: 20px;
+}
+.parrafo_desarrollo_ano{
+    margin-bottom: 20px;
+}

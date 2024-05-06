@@ -1,0 +1,108 @@
+
+
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 0px;
+}
+.titulo_experiencia{
+    font-weight: 700;
+    font-size: 25px;
+    margin:50px 0px 25px 0px;
+    text-align: center;
+}
+.titulo_programador_jefe{
+    font-weight: 700;
+    font-size: 20px;
+    margin:50px 0px;
+    text-align: center
+}
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    gap: 5px;
+
+}
+.Imagen_codigo_secreto{
+    width: 90%;
+    height: 120px;
+}
+.repositorio{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.titulo_proyecto{
+    font-weight: 700;
+    font-size: 14px;
+}
+.parrafo_challenge{
+    font-size: 10px;
+}
+
+.boton_repositorio{
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+.btn_repo{
+    width: 90px;
+    height: 35px;
+    color:#2A7AE4;
+    background: #ffffff;
+    border: 1px solid #2a7ae4;
+
+}
+.btn_demo{
+    width: 80px;
+    height: 35px;
+    color:#ffffff;
+    background: #2A7AE4;
+    border: none;
+}
+.proyecto_reverso{
+    display: flex;
+    flex-direction:column;
+    margin-left: 5%;
+    gap: 5px;
+}
+
+@media(min-width:768px){
+    .Imagen_codigo_secreto{
+        height: 400px;
+    }
+}
+@media(min-width:1440px){
+    .experiencia{
+        width: 90%;
+    }
+    .proyecto{
+        flex-direction: row;
+        align-items: center;  
+        margin-bottom: 50px;      
+    }
+    .Imagen_codigo_secreto{
+        width: 60%;
+        height: 600px;
+    }
+    .proyecto_reverso{
+        flex-direction:row-reverse;
+        align-items: center;  
+        margin-bottom: 50px;      
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+

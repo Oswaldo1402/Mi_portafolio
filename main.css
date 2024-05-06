@@ -1,0 +1,37 @@
+@import url("styles/reset.css");
+@import url("styles/cabecera.css");
+@import url("styles/heroe.css");
+@import url("styles/sobre_mi.css");
+@import url("styles/skills.css");
+@import url("styles/hobbies.css");
+@import url("styles/formacion.css");
+@import url("styles/experiencia_programacion.css");
+@import url("styles/experiencia_jefe.css");
+@import url("styles/footer_contenedor_rodapie.css");
+@import url("styles/footer_contenedor_desarrollo_ano.css");
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#f5f5f5;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    color: #464646;    
+}
+main{
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    width: 100%;
+    background: #EAF2FD;
+    flex-direction: column;
+    align-items: center;
+
+}
