@@ -27,7 +27,7 @@
 .red_social{
     display: flex;
     align-items: center;
-    font-size: 8px;
+    font-size: 12px;
     
 }
 .flecha{
@@ -79,7 +79,7 @@
 
 }
 
-@media(min-width:1440px){
+@media(min-width:800px){
     .heroe{
         width: 80%;
         margin-top: 50px;

@@ -73,6 +73,9 @@
         height: 400px;
     }
 }
+
+
+
 @media(min-width:1440px){
     .experiencia{
         width: 90%;
